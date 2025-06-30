@@ -9,7 +9,7 @@ st.title("📊 TasteMate Repeat Order Dashboard")
 st.markdown("This dashboard provides deep insights into customer behavior, repeat orders, pricing trends, and more using the TasteMate dataset.")
 
 # Load data
-df = pd.read_excel("TasteMate.xlxs")
+df = pd.read_excel("TasteMate.xlsx")
 
 # Rename and clean
 df.rename(columns={'Repaet labels ': 'Repeat_Label'}, inplace=True)
